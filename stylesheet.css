@@ -50,12 +50,27 @@ a:link {
 	color:#00FFFF !important;
 }
 
-
-.chat-input-box {
-border-style: solid 1px #3232FF !important;
-padding: 8px !important;
+.chat-input-box textarea, .chat-input-box textarea {
+    border: 1px #3232FF !important;
+    border-top-color: #3232FF !important;
+    border-top-style: solid !important;
+    border-top-width: 1px !important;
+    border-right-color: #3232FF !important;
+    border-right-style: solid !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #3232FF !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #3232FF !important;
+    border-left-style: solid !important;
+    border-left-width: 1px !important;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: #202020 !important;
 }
-
 
 
 /** decrease size of autocomplete list */
