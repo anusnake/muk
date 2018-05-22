@@ -1,8 +1,10 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=IBM Plex Sans');
 
-ul {-webkit-padding-start: 0} /* Specific to Chrome */
+{
+    background-color: #202020 !important;
+}
+
+ul {-webkit-padding-start: 0px} /* Specific to Chrome */
 img.emote {max-height: 1.8em !important}
 .chat-line-wrapper img.chat-line-badge {
     padding-right: 2px;
@@ -15,7 +17,7 @@ img.emote {max-height: 1.8em !important}
 
 /**** Chat ****/
 .chat-line:nth-of-type(even) {
-  background-color: #353535 !important;
+	background-color: #202020 !important;
 }
 .chat-line:nth-of-type(odd) {
 	background-color: #252525 !important;
@@ -37,21 +39,16 @@ img.emote {max-height: 1.8em !important}
 }
 
 .emote-menu-button {
-    bottom: 0;
+    bottom: 0px !important;
 }
 
 .chat-mention { 
     font-weight: bold;
 }
 
-
-a:link {
-padding-left: 100px;
-color: hotpink !important;
+a:link { 
+	color:#838383; text-decoration:none; font-weight:normal !important; 
 }
-
-
-
 
 
 /** decrease size of autocomplete list */
