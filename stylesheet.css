@@ -45,7 +45,7 @@ img.emote {max-height: 1.8em !important}
 }
 
 
-.register a:link {
+a:link {
 padding-left: 100px;
 color: hotpink !important;
 }
