@@ -51,6 +51,13 @@ a:link {
 }
 
 
+.chat-input-box {
+border-style: solid 1px #3232FF !important;
+padding: 8px !important;
+}
+
+
+
 /** decrease size of autocomplete list */
 
 .md-panel.autocomplete-panel .autocomplete-panel-content .md-button,
