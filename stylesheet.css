@@ -46,8 +46,8 @@ img.emote {max-height: 1.8em !important}
     font-weight: bold;
 }
 
-.register a:link { 
-	color:hotpink !important; text-decoration:none !imporrant; font-weight:normal !important; 
+a:link { 
+	color:hotpink !important; font-weight:normal !important; 
 }
 
 
