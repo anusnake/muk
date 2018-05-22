@@ -1,0 +1,97 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=IBM Plex Sans');
+
+ul {-webkit-padding-start: 0} /* Specific to Chrome */
+img.emote {max-height: 1.8em !important}
+.chat-line-wrapper img.chat-line-badge {
+    padding-right: 2px;
+}
+
+
+.loading-screen {
+ background-color: #202020 !important;
+}
+
+/**** Chat ****/
+.chat-line:nth-of-type(even) {
+  background-color: #D3D3D3 !important;
+}
+.chat-line:nth-of-type(odd) {
+	background-color: #252525 !important;
+}
+
+.chat-wrapper {
+    font-size: 10.2pt !important;
+    font-family: 'Arial', sans-serif !important;
+ 
+}
+
+.chat-line-username {
+    font-weight: bold !important;
+}
+
+.chat-input-box textarea, .chat-input-box textarea { 
+    border: solid 0px gray;
+    background-color: #202020 !important;
+}
+
+.emote-menu-button {
+    bottom: 0;
+}
+
+.chat-mention { 
+    font-weight: bold;
+}
+
+
+.register a:link {
+padding-left: 100px;
+color: hotpink !important;
+}
+
+
+
+
+
+/** decrease size of autocomplete list */
+
+.md-panel.autocomplete-panel .autocomplete-panel-content .md-button,
+.md-panel.autocomplete-panel .autocomplete-panel-content ._md-button-wrap,
+.md-panel.autocomplete-panel .autocomplete-panel-content ._md-button-wrap .md-list-item:before,
+.md-panel.autocomplete-panel .autocomplete-panel-content ._md-button-wrap .md-list-item-inner:before{
+    font-size: 9pt !important;
+    max-height: 22px !important;
+    min-height: 10px !important;
+}
+
+
+/* Scale down and center inline mod icons */
+.chat-line-mod-button-label {
+    height: 16px !important;
+    transform: translate3d(0px, -1.5px, 0px) !important;
+}
+
+.chat-line-wrapper.chat-line-deleted .chat-line-text{
+    text-decoration: none !important;
+}
+
+.chat-input-box {
+    border-top: solid 0px gray !important;
+    padding: 8px !important;
+}
+
+/**** Mod Card ****/
+.mod-card button.md-button.mod-card-mod-button {
+    margin: 0 !important;
+    padding: 6.5px !important;
+}
+
+.mod-card button.md-button.mod-card-mod-button img {
+    height: 32px !important;
+    transform: none !important;
+}
+
+.md-button {
+    padding: 0 !important;
+}
