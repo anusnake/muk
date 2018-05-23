@@ -80,6 +80,10 @@ a:link {
     outline-width: initial !important;
 }
 
+.chat-line-badges{
+ position: absolute;
+    top: 5px;
+}
 
 /** decrease size of autocomplete list */
 
