@@ -100,7 +100,7 @@ a:link {
 /* Scale down and center inline mod icons */
 .chat-line-mod-button-label {
     height: 16px !important;
-    transform: translate3d(0px, -1.5px, 0px) !important;
+width: auto !important;
 }
 
 .chat-line-wrapper.chat-line-deleted .chat-line-text{
@@ -116,7 +116,7 @@ a:link {
 .mod-card button.md-button.mod-card-mod-button {
     margin: 0 !important;
     padding: 6.5px !important;
-}
+
 
 .mod-card button.md-button.mod-card-mod-button img {
     height: 16px !important;
