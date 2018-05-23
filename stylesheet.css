@@ -82,7 +82,7 @@ a:link {
 
 .chat-line-badges{
  position: initial !important;
-    top: 5px !important;
+    top: 10px !important;
 }
 
 /** decrease size of autocomplete list */
