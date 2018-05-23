@@ -81,8 +81,8 @@ a:link {
 }
 
 .chat-line-badges{
- position: initial !important;
-    top: 10px !important;
+    position: relative !important;
+    top: 5px !important;
 }
 
 /** decrease size of autocomplete list */
