@@ -68,9 +68,10 @@ body.theme-dark .chat-container .chat-line-mod-button-label:hover {
 }
 
 /* Adding Link colors for birdE wirdE */
-a:link { 
-color:red; 
-}
+a:link {color:red !important;}      /* unvisited link */
+a:visited {color:red !important;}  /* visited link */
+a:hover {color:red !important;}  /* mouse over link */
+a:active {color:red !important;}  /* selected link */
 
 /* Adding padding between chat-header-button for birdE wirdE */
 .chat-header-button {
