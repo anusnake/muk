@@ -35,9 +35,9 @@ body.theme-dark .chat-container {
 	background: rgba(255, 255, 255, 0.05) !important;
 }
 .chat-line {
-	/* Removing black lines between chat messages for birdE wirdE
-	border-top: 1px solid rgba(255, 255, 255, 0.1); */
-	border-bottom: 1px solid #000;
+	/* Removing white and black lines between chat messages for birdE wirdE
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid #000; */
 }
 
 .chat-input-box {
@@ -67,7 +67,7 @@ body.theme-dark .chat-container .chat-line-mod-button-label:hover {
 	font-size: 20px;
 }
 
-
+/* Adding Link colors for birdE wirdE */
 a:link { 
 	color:#00FFFF !important;
 }
