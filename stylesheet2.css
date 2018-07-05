@@ -65,3 +65,9 @@ body.theme-dark .chat-container .chat-line-mod-button-label:hover {
 .emote-menu-button .md-button.md-icon-button md-icon.md-dark-theme {
 	font-size: 20px;
 }
+
+
+a:link { 
+	color:#00FFFF !important;
+}
+
